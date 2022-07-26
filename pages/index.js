@@ -9,7 +9,7 @@ export default function Home() {
         <div className='w-40 mb-4'>
           <Image alt='Logo Rancang' src={logoRancang} />
         </div>
-        This website is under development
+        Kela sakedap nyuak.
       </div>
     </Layout>
   )
