@@ -3,7 +3,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { List, X } from 'phosphor-react'
 import style from './navbar.module.css'
-import logoRancang from '../public/icon/rancang-horizontal.png'
+import logoHorizontal from '../public/icon/logo-horizontal.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -13,7 +13,7 @@ export default function Navbar() {
       <div className='flex justify-between items-center px-2 lg:max-w-screen-lg lg:mx-auto lg:items-end'>
         <Link href='/'>
           <a className='w-24 py-1'>
-            <Image alt='Logo Rancang Creative' src={logoRancang} />
+            <Image alt='Logo Rancang Creative' src={logoHorizontal} />
           </a>
         </Link>
         <button className='lg:hidden' onClick={() => setIsOpen(!isOpen)}>
