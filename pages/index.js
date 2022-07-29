@@ -39,13 +39,13 @@ export default function Home() {
       <Profile />
       <div className='px-8 pb-6'>
         <div className='relative w-full mb-3'>
-          <div className='relative w-60 -ml-10 pt-10'>
+          <div className='relative w-60 -ml-16 xs:-ml-10 pt-10'>
             <Image alt='' src={sitting} layout='responsive' />
             <p className='absolute top-4 inset-x-0 text-xs text-center'>
               {`*pusing*`}
             </p>
           </div>
-          <div className='bg-cyan-100 shadow rounded-xl px-3 py-2 absolute w-44 top-0 right-0'>
+          <div className='bg-cyan-100 shadow rounded-xl px-3 py-2 absolute w-44 top-0 -right-3 xs:right-0'>
             {`"Ah... kemarin aja order di sebelah udah mahal, hasilnya kurang memuaskan lagi"`}
             <p className='absolute -bottom-8 right-6 text-xs bg-cyan-100 shadow rounded px-2 py-1'>
               mending
