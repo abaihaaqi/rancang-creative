@@ -15,7 +15,7 @@ module.exports = {
         'secondary': '#F1545D',
       },
       screens: {
-        'xs': '420px',
+        'xs': '428px',
       }
     },
   },
