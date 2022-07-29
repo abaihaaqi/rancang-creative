@@ -12,7 +12,7 @@ export default function Navbar() {
     <div className='sticky top-0 z-50'>
       <div className='bg-white flex justify-between items-center px-2 lg:max-w-screen-lg lg:mx-auto lg:items-end'>
         <Link href='#top'>
-          <a className='w-24 py-1'>
+          <a className='w-24 py-1'  onClick={() => setIsOpen(false)}>
             <Image alt='Logo Rancang Creative' src={logoHorizontal} />
           </a>
         </Link>
@@ -49,7 +49,7 @@ export default function Navbar() {
       {isOpen && (
         <div className='bg-white absolute inset-x-0 font-daxline flex flex-col'>
           <Link href='#profile'>
-            <a className={style.link}>
+            <a className={style.link} onClick={() => setIsOpen(false)}>
               Profile
             </a>
           </Link>
@@ -58,7 +58,7 @@ export default function Navbar() {
               Project
             </a>
           </Link> */}
-            <a href='' className={style.link}>
+            <a href='' className={style.link} onClick={() => setIsOpen(false)}>
               Contact &#8599;
             </a>
         </div>
