@@ -1,27 +1,19 @@
 import Image from 'next/image'
-import clumsy from '../public/illustration/clumsy.png'
-import { ChatCircle, Heart, PaperPlaneTilt } from 'phosphor-react'
+import clumsy from '../public/illustration/clumsy.svg'
 
 export default function Banner() {
   return (
     <>
-      <div className='bg-primary grid grid-cols-1 justify-items-center px-8 py-6'>
-        <div className='w-full'>
-          <div className='w-full bg-white border-[6px] border-black'>
-            <Image alt='' src={clumsy} layout='responsive' />
-          </div>
-          <div className='flex gap-1 p-2'>
-            <Heart size={25} weight='fill' className='text-secondary' />
-            <ChatCircle size={25} />
-            <PaperPlaneTilt size={25} />
-          </div>
+      <div className='grid grid-cols-1 justify-items-center px-8 py-6'>
+        <div className='w-full mb-4'>
+          <Image alt='' src={clumsy} layout='responsive' />
         </div>
         <div className='px-1'>
-          <h3 className='font-bold pb-1'>
+          <h3 className='font-bold text-2xl pb-3'>
             Aduuuh... Kepikiran ide-ide baru tapi gak ada yang bantu desain, nih.
           </h3>
-          <p className='text-sm'>
-            Mau rekrut tim content planner dan graphic designer, tapi biayanya mahal-mahal. Duh, jadi pusing, nih. Kalo gini terus, ide-ide bisa pada kabur. Gimana solusinya, yaa?
+          <p>
+            Mau rekrut tim <i>Content Planner</i> dan <i>Graphic Designer</i> , tapi biayanya mahal-mahal. Duh, jadi pusing, nih. Kalo gini terus, ide-ide bisa pada kabur. Gimana solusinya, yaa?
           </p>
         </div>
       </div>

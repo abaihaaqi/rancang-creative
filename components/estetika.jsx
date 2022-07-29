@@ -1,12 +1,12 @@
 import Image from 'next/image'
 import { BookmarkSimple } from 'phosphor-react'
-import clumsy from '../public/illustration/clumsy.png'
-import jumping from '../public/illustration/jumping.png'
-import dancing from '../public/illustration/dancing.png'
-import loving from '../public/illustration/loving.png'
-import meditating from '../public/illustration/meditating.png'
-import reading from '../public/illustration/reading.png'
-import iceCream from '../public/illustration/ice-cream.png'
+import clumsy from '../public/illustration/clumsy.svg'
+import jumping from '../public/illustration/jumping.svg'
+import dancing from '../public/illustration/dancing.svg'
+import loving from '../public/illustration/loving.svg'
+import meditating from '../public/illustration/meditating.svg'
+import reading from '../public/illustration/reading.svg'
+import iceCream from '../public/illustration/ice-cream.svg'
 
 export default function Estetika() {
   return (

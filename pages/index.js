@@ -3,7 +3,7 @@ import Layout from '../components/layout'
 import Estetika from '../components/estetika'
 import Banner from '../components/banner'
 import Profile from '../components/profile'
-import reading from '../public/illustration/reading.png'
+import reading from '../public/illustration/reading.svg'
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
       <Banner />
       <Estetika />
       <div className='px-8 pt-6'>
-        <div className='w-full bg-white border-[6px] border-black mb-3 px-10'>
+        <div className='w-full mb-3 px-10'>
           <Image alt='' src={reading} layout='responsive' />
         </div>
         <h3 className='font-bold text-center mb-3'>

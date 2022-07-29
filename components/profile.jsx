@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import logo from '../public/icon/logo.png'
-import plant from '../public/illustration/plant.png'
+import plant from '../public/illustration/plant.svg'
 
 export default function Profile() {
   return (
