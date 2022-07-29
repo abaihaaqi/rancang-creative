@@ -39,7 +39,7 @@ export default function Navbar() {
               Project
             </a>
           </Link>
-          <Link href='/contact'>
+          <Link href=''>
             <a className='hover:underline mb-2'>
               Contact
             </a>
@@ -47,7 +47,7 @@ export default function Navbar() {
         </div>
       </div>
       {isOpen && (
-        <div className='bg-white absolute inset-x-0 font-daxline flex flex-col'>
+        <div className='bg-white absolute inset-x-0 font-daxline flex flex-col z-50'>
           <Link href='/profile'>
             <a className={style.link}>
               Profile
@@ -58,11 +58,9 @@ export default function Navbar() {
               Project
             </a>
           </Link>
-          <Link href='/contact'>
-            <a className={style.link}>
-              Contact
+            <a href='#' className={style.link}>
+              Contact &#8599;
             </a>
-          </Link>
         </div>
       )}
     </>
