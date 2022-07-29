@@ -9,8 +9,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className='sticky top-0 z-50'>
-      <div className='bg-white flex justify-between items-center px-2 lg:max-w-screen-lg lg:mx-auto lg:items-end'>
+    <div className='bg-white sticky top-0 z-50'>
+      <div className='flex justify-between items-center px-2 lg:max-w-screen-lg lg:mx-auto lg:items-end'>
         <Link href='#top'>
           <a className='w-24 py-1'  onClick={() => setIsOpen(false)}>
             <Image alt='Logo Rancang Creative' src={logoHorizontal} />
