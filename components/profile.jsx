@@ -5,7 +5,7 @@ import plant from '../public/illustration/plant.svg'
 export default function Profile() {
   return (
     <>
-      <div className='bg-cyan-100 my-6 mx-4 px-3 py-4 rounded shadow'>
+      <div id='profile' className='bg-cyan-100 my-6 mx-4 px-3 py-4 rounded shadow scroll-mt-14'>
         <div className='w-40 pb-4 mx-auto'>
           <Image alt='Logo Rancang Creative' src={logo} />
         </div>

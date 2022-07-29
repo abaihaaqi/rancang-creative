@@ -43,7 +43,7 @@
 @layer base {
   html,
   body {
-    @apply font-poppins
+    @apply font-poppins scroll-smooth
   }
 
   h1 {
