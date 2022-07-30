@@ -1,16 +1,16 @@
-import Image from 'next/image'
 import Layout from '../components/layout'
-import logoRancang from '../public/icon/rancang-horizontal.png'
+import Estetika from '../components/estetika'
+import Banner from '../components/banner'
+import Profile from '../components/profile'
+import Pricing from '../components/pricing'
 
 export default function Home() {
   return (
     <Layout>
-      <div className='bg-primary/70 h-screen w-full flex flex-col justify-center items-center'>
-        <div className='w-40 mb-4'>
-          <Image alt='Logo Rancang' src={logoRancang} />
-        </div>
-        Kela sakedap nyuak.
-      </div>
+      <Banner />
+      <Estetika />
+      <Profile />
+      <Pricing />
     </Layout>
   )
 }

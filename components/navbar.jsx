@@ -3,17 +3,17 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { List, X } from 'phosphor-react'
 import style from './navbar.module.css'
-import logoRancang from '../public/icon/rancang-horizontal.png'
+import logoHorizontal from '../public/icon/logo-horizontal.png'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <>
+    <div className='bg-white sticky top-0 z-50'>
       <div className='flex justify-between items-center px-2 lg:max-w-screen-lg lg:mx-auto lg:items-end'>
-        <Link href='/'>
-          <a className='w-24 py-1'>
-            <Image alt='Logo Rancang Creative' src={logoRancang} />
+        <Link href='#top'>
+          <a className='w-24 py-1'  onClick={() => setIsOpen(false)}>
+            <Image alt='Logo Rancang Creative' src={logoHorizontal} />
           </a>
         </Link>
         <button className='lg:hidden' onClick={() => setIsOpen(!isOpen)}>
@@ -24,47 +24,43 @@ export default function Navbar() {
           )}
         </button>
         <div className='hidden font-daxline lg:flex gap-6'>
-          <Link href='/'>
+          <Link href='#top'>
             <a className='hover:underline mb-2'>
               Home
             </a>
           </Link>
-          <Link href='/profile'>
+          <Link href='#profile'>
             <a className='hover:underline mb-2'>
               Profile
             </a>
           </Link>
-          <Link href='/project'>
+          {/* <Link href='#project'>
             <a className='hover:underline mb-2'>
               Project
             </a>
-          </Link>
-          <Link href='/contact'>
-            <a className='hover:underline mb-2'>
-              Contact
-            </a>
-          </Link>
+          </Link> */}
+          <a href='http://wa.me/6285624200502?text=Hi,+mau+dong+sosmednya+dirapihin' target='_blank' rel='noopener noreferrer' className='hover:underline mb-2'>
+            Contact &#8599;
+          </a>
         </div>
       </div>
       {isOpen && (
         <div className='bg-white absolute inset-x-0 font-daxline flex flex-col'>
-          <Link href='/profile'>
-            <a className={style.link}>
+          <Link href='#profile'>
+            <a className={style.link} onClick={() => setIsOpen(false)}>
               Profile
             </a>
           </Link>
-          <Link href='/project'>
+          {/* <Link href='#project'>
             <a className={style.link}>
               Project
             </a>
-          </Link>
-          <Link href='/contact'>
-            <a className={style.link}>
-              Contact
+          </Link> */}
+            <a href='http://wa.me/6285624200502?text=Hi,+mau+dong+sosmednya+dirapihin' target='_blank' rel='noopener noreferrer' className={style.link} onClick={() => setIsOpen(false)}>
+              Contact &#8599;
             </a>
-          </Link>
         </div>
       )}
-    </>
+    </div>
   )
 }

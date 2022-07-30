@@ -13,6 +13,9 @@ module.exports = {
       colors: {
         'primary': '#80E4E2',
         'secondary': '#F1545D',
+      },
+      screens: {
+        'xs': '428px',
       }
     },
   },
