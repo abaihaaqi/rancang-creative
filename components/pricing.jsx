@@ -27,6 +27,62 @@ export default function Pricing() {
           </div>
         </div>
       </div>
+      <div className='px-3 max-w-screen-md mx-auto mb-10'>
+        <div className='relative max-w-md bg-cyan-100 shadow-md rounded-md md:rounded-t-md md:rounded-r-md p-3 mb-5'>
+          <h2 className='font-bold mb-3 text-center'>Paket Minimalis</h2>
+          <h3 className='font-medium mb-3 text-center'>Rp299.000,00,-</h3>
+          <ul className='list-disc ml-6 flex flex-col gap-3 mb-3'>
+            <li>
+              12 Feed Instagram
+            </li>
+            <li>
+              Ide materi dan konsep design
+            </li>
+            <li>
+              Bebas Revisi
+            </li>
+            <li>
+              Caption dan copywriting
+            </li>
+            <li>
+              Admin posting
+            </li>
+            <li>
+              3 icon highlight
+            </li>
+            <li>
+              Riset hashtag
+            </li>
+          </ul>
+          <div className='flex justify-center'>
+            <a 
+              href="http://wa.me/6285624200502?text=Hi,+saya+mau+pesen+Paket+Minimalis+dong" 
+              target="_blank" rel="noopener noreferrer"
+              className='bg-white rounded-md shadow-md px-2 py-1'>
+              Pesan
+            </a>
+          </div>
+          <div className='hidden xs:block absolute -bottom-3 left-0 bg-cyan-100 rounded-full shadow-md h-6 w-6' />
+        </div>
+        <div className='flex justify-end'>
+          <div className='relative max-w-md bg-slate-800 shadow-md rounded-md md:rounded-t-md md:rounded-l-md p-3 text-white'>
+            <h2 className='font-bold text-center mb-3'><span className='text-red-500'>Paket</span> Merdeka 🇮🇩</h2>
+            <h3 className='font-medium mb-3 text-center'>Harga merdeka</h3>
+            <p className='mb-3'>
+              Desain spanduk dengan harga bebas, dalam rangka merayakan kemerdekaan Indonesia yang ke-77.
+            </p>
+            <div className='flex justify-center'>
+              <a 
+                href="http://wa.me/6285624200502?text=Hi,+saya+mau+pesen+Paket+Merdeka+dong" 
+                target="_blank" rel="noopener noreferrer"
+                className='bg-red-700 rounded-md shadow-md px-2 py-1'>
+                Pesan
+              </a>
+            </div>
+            <div className='hidden xs:block absolute -bottom-3 right-0 bg-slate-800 rounded-full shadow-md h-6 w-6' />
+          </div>
+        </div>
+      </div>
     </>
   )
 }
