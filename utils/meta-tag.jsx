@@ -5,7 +5,7 @@ export default function MetaTags({ url, title, description, img }) {
 
   const defaultOpt = {
     defaultTitle: "Rancang Creative",
-    defaultDesc: "Kami pemuda pembela agama, pembangkit umat yang utama.",
+    defaultDesc: "meRancang secara Kreatif konten digital untuk optimalisasi media sosial penjualan atau layanan jasa yang kamu tawarkan di lini masa online.",
     defaultImg: "/default.jpeg",
   }
 
