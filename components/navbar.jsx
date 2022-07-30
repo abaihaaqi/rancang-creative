@@ -39,11 +39,9 @@ export default function Navbar() {
               Project
             </a>
           </Link> */}
-          <Link href=''>
-            <a className='hover:underline mb-2'>
-              Contact &#8599;
-            </a>
-          </Link>
+          <a href='http://wa.me/6285624200502?text=Hi,+mau+dong+sosmednya+dirapihin' target='_blank' rel='noopener noreferrer' className='hover:underline mb-2'>
+            Contact &#8599;
+          </a>
         </div>
       </div>
       {isOpen && (
@@ -58,7 +56,7 @@ export default function Navbar() {
               Project
             </a>
           </Link> */}
-            <a href='' className={style.link} onClick={() => setIsOpen(false)}>
+            <a href='http://wa.me/6285624200502?text=Hi,+mau+dong+sosmednya+dirapihin' target='_blank' rel='noopener noreferrer' className={style.link} onClick={() => setIsOpen(false)}>
               Contact &#8599;
             </a>
         </div>
