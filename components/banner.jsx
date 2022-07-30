@@ -9,7 +9,7 @@ export default function Banner() {
       </div>
       <div className='px-1'>
         <h1 className='font-bold pb-3'>
-          Aduuuh... Kepikiran ide-ide baru tapi gak ada yang bantu desain, nih.
+          Aduuuh bingung... mau ngembangin sosial media bisnis tapi gak ada yang bantu desain, nih.
         </h1>
         <p>
           Mau rekrut tim <i>Content Planner</i> dan <i>Graphic Designer</i> , tapi biayanya mahal-mahal. Duh, jadi pusing, nih. Kalo gini terus, ide-ide bisa pada kabur. Gimana solusinya, yaa?
