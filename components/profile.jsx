@@ -50,7 +50,7 @@ export default function Profile() {
           </div>
         </div>
         <div className='hidden sm:block w-80'>
-          <Image src={laying} layout='responsive' />
+          <Image alt='' src={laying} layout='responsive' />
         </div>
       </div>
       <div id='profile' className='max-w-2xl mx-auto scroll-mt-14 mb-10 flex justify-end sm:pl-16 sm:pr-3'>
@@ -75,7 +75,7 @@ export default function Profile() {
       <div className='max-w-2xl mx-auto mb-10'>
         <div className='relative mb-6'>
           <div className='max-w-xs mx-auto md:max-w-sm md:mx-0'>
-            <Image src={selfie} layout='responsive' />
+            <Image alt='' src={selfie} layout='responsive' />
           </div>
           <div className='md:absolute bottom-0 left-52 xs:px-3 mb-4'>
             <div className=' bg-gray-50 max-w-sm mx-auto xs:shadow-md xs:rounded-md p-3 '>
