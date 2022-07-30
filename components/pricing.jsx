@@ -69,7 +69,7 @@ export default function Pricing() {
             <h2 className='font-bold text-center mb-3'><span className='text-red-500'>Paket</span> Merdeka 🇮🇩</h2>
             <h3 className='font-medium mb-3 text-center'>Harga merdeka</h3>
             <p className='mb-3'>
-              Desain spanduk dengan harga bebas, dalam rangka merayakan kemerdekaan Indonesia yang ke-77.
+              Desain spanduk dengan harga seikhlasnya, dalam rangka merayakan kemerdekaan Indonesia yang ke-77.
             </p>
             <div className='flex justify-center'>
               <a 
